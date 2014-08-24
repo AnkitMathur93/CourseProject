@@ -52,3 +52,19 @@ test_subject:- It is the vector of the subject id of the data in "test.txt".
 
 testActivity_Id:- It is the vector of the Activity labels of the data in "test.txt".
 
+#####tidydata<-function(X)
+
+This is the function which returns the required independent tidy data set with the average of each variable for each activity and each subject.It also creates the "tidyDataset.txt" file 
+with write.table function.The following are the objects defined in this Function.
+
+Subject_Id<-It is the vector of Subject_id of this new tidy dataset which is split according to Subject_Id and Activity_Id of the "MeanStdData" dataset. 
+
+Activity_Labels<-It is the vector of Activity_Labels of this new tidy dataset which is split according to Subject_Id and Activity_Id of the "MeanStdData" dataset. 
+
+tidy<-This is the required tidy data set which is formed by splitting each variable of "MeanStdData" dataset according to Subject_Id and Activity_Id of the "MeanStdData" dataset.
+
+#####labels<-function(ele)
+    
+This Function is used to extract first element of the object ele passed as argument.It used in sapply() function to extract first element of the list elements.
+======================================================================================
+
