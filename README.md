@@ -52,6 +52,10 @@ test_subject:- It is the vector of the subject id of the data in "test.txt".
 
 testActivity_Id:- It is the vector of the Activity labels of the data in "test.txt".
 
+#####labels<-function(ele)
+
+This Function is used to extract first element of the object ele passed as argument.It used in sapply() function to extract first element of the list elements.
+
 #####tidydata<-function(X)
 
 This is the function which returns the required independent tidy data set with the average of each variable for each activity and each subject.It also creates the "tidyDataset.txt" file 
