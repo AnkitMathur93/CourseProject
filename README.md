@@ -64,7 +64,9 @@ Activity_Labels<-It is the vector of Activity_Labels of this new tidy dataset wh
 tidy<-This is the required tidy data set which is formed by splitting each variable of "MeanStdData" dataset according to Subject_Id and Activity_Id of the "MeanStdData" dataset.
 
 #####labels<-function(ele)
-    
+
 This Function is used to extract first element of the object ele passed as argument.It used in sapply() function to extract first element of the list elements.
-======================================================================================
+    
+
+
 

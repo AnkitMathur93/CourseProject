@@ -86,8 +86,8 @@ tidydata<-function(X)
     }
     names(tidy)=names(X)[-2]
     
-    write.table(tidy,"tidydataset.txt",col.names=TRUE,row.names=FALSE,sep=" ")
-    tidy<-read.table("tidydataset.txt",header=TRUE)
+    write.table(tidy,"tidyDataset.txt",col.names=TRUE,row.names=FALSE,sep=" ")
+    tidy<-read.table("tidyDataset.txt",header=TRUE)
     
 }
 #This Function is used to extract first element of the object ele passed 
