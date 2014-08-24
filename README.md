@@ -1,4 +1,4 @@
-CourseProject
-=============
+##Description of run_analysis.R script
+===========================================
 
-Course Project of Coursera Getting and Cleaning Data 
+
