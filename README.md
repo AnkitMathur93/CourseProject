@@ -1,6 +1,6 @@
 ##Description of run_analysis.R script
 =============================================================
-#####To use this script, source run_analysis.R script by saving it in "UCI HAR Dataset" directory and making it current directory.Then run the following command:-
+#####To use this script, save run_analysis.R script in "UCI HAR Dataset" directory. Make it current directory and then source the script in R_studio.Then run the following command:-
 ######tidy<-run_analysis()
 #####The script returns the tidy data set that is required in part 5 of the problem and also creates a "tidyDataset.txt" file in the current directory.
 #####This text file contains the tidy dataset created in R_studio version 3.1.1 and  saved using write.table function with row.names =FALSE.
